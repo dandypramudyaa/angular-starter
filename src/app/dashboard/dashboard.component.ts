@@ -8,6 +8,8 @@ import { Router } from '@angular/router';
 })
 export class DashboardComponent implements OnInit {
 
+  public title = "Dandy Pramudya";
+
   constructor(
     private router: Router
   ) { }
